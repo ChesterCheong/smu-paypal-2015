@@ -130,7 +130,7 @@ module.exports = {
     },
     //sample address
     'address':{
-        'line1': '1 Temasek Avenue' + return_url,
+        'line1': '2 Temasek Avenue' + return_url,
         'line2': '#14-01',
         'city': 'Singapore',
         'state': 'Singapore',

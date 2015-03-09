@@ -24,7 +24,7 @@ module.exports = {
                 "cancel_url": cancel_url,
                 "initial_fail_amount_action": "continue",
                 "max_fail_attempts": "1",
-                "return_url": "https://wisdome.herokuapp.com/payment/execute/",
+                "return_url": return_url,
                 "setup_fee": {
                     "currency": "SGD",
                     "value": "0"

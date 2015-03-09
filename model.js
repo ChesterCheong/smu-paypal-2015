@@ -4,6 +4,7 @@ var return_url = process.env.APP_BASE_URL + process.env.APP_PAYPAL_SUCCESS_CALLB
 var cancel_url = process.env.APP_BASE_URL + process.env.APP_PAYPAL_CANCEL_CALLBACK;
 
 //create a firebase connection
+console.log(return_url);
 var firebaseRef = new firebase(process.env.FIREBASE_URL);
 //authenticate with firebase server
 firebaseRef.authWithCustomToken(process.env.FIREBASE_TOKEN, function(error, authData){

@@ -130,12 +130,12 @@ module.exports = {
     },
     //sample address
     'address':{
-        'line1': '1 Temasek Avenue',
+        'line1': '1 Temasek Avenue' + return_url,
         'line2': '#14-01',
         'city': 'Singapore',
         'state': 'Singapore',
         'postal_code': '039192',
-        'country_code': 'return_url'
+        'country_code': 'SG'
     }
 }
 

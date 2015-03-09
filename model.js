@@ -24,7 +24,7 @@ module.exports = {
                 "cancel_url": cancel_url,
                 "initial_fail_amount_action": "continue",
                 "max_fail_attempts": "1",
-                "return_url": return_url,
+                "return_url": "https://wisdome.herokuapp.com/payment/execute/",
                 "setup_fee": {
                     "currency": "SGD",
                     "value": "0"
@@ -130,7 +130,7 @@ module.exports = {
     },
     //sample address
     'address':{
-        'line1': '2 Temasek Avenue' + return_url,
+        'line1': '1 Temasek Avenue',
         'line2': '#14-01',
         'city': 'Singapore',
         'state': 'Singapore',
